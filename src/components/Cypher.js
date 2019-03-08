@@ -157,7 +157,7 @@ export class CypherPage extends React.Component {
         {this.renderKey()}
         <h2>{cypher.name}</h2>
         <p class="desc">{cypher.description}</p>
-        <p>{cypher.example}</p>
+        <p class="exam">{cypher.example}</p>
         <h3>Select Current Mode</h3>
         <select value={this.state.displayMode} onChange={this.selectionChanged}>
           <option value="encrypt">Encrypt</option>
